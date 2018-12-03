@@ -1,0 +1,23 @@
+// supports comment line starting with '//'
+{
+  "__defaults__" : {
+    // "ip": "",
+    "port": "80,10",
+    "ssl": false
+  },
+  "api.example.com": {
+    // nothing 
+  },
+  "video.example.com" : {
+    "ip": "192.168.0.23",
+    "port": "80,443,1024-30000",
+    "ssl": true
+  },
+  "audio.example.com": {
+    "ip": "instance-1",
+    "port": ""
+  },
+  "streaming.example.com": {
+    "ip": "instance-1"
+  }
+}
